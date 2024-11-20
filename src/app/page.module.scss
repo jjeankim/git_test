@@ -1,0 +1,47 @@
+.page {
+  background-color: aqua;
+}
+
+// .text-3xl {
+//   @include text-3xl;
+//   font-weight: 600;
+// }
+
+// .two {
+//   @include text-2xl;
+// }
+
+// .one {
+//   @include text-xl;
+//   font-weight: 500;
+// }
+
+// .twoLg {
+//   @include text-2lg;
+// }
+
+// .lg {
+//   @include text-lg;
+//   font-weight: 400;
+// }
+
+// .md {
+//   @include text-md;
+// }
+
+// .sm {
+//   @include text-sm;
+//   font-weight: 600;
+// }
+
+// .xs {
+//   @include text-xs;
+// }
+
+.text3xl {
+  @include text(3xl);
+}
+
+.twe {
+  @include text(2xl);
+}

@@ -1,0 +1,83 @@
+/* 모든 요소 초기화 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML 및 Body 기본 설정 */
+html {
+  font-size: 100%; // 기본 글꼴 크기 설정
+  line-height: 1.5; // 행 간격 설정
+  -webkit-text-size-adjust: 100%; // 모바일 장치의 텍스트 크기 조정 방지
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed; // 텍스트 렌더링 최적화
+  font-family: Pretendard, Arial, sans-serif; // 기본 글꼴 설정
+}
+
+/* 리스트 초기화 */
+ul, ol {
+  list-style: none;
+}
+
+/* 앵커 태그 초기화 */
+a {
+  text-decoration: none;
+  color: inherit; // 부모 요소의 색상 상속
+}
+
+/* 이미지 초기화 */
+img {
+  max-width: 100%; // 반응형 이미지
+  display: block; // 인라인 패딩 제거
+}
+
+/* 비디오 및 오디오 초기화 */
+video, audio {
+  display: block;
+  max-width: 100%;
+}
+
+/* 버튼 초기화 */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit; // 버튼에 기본 폰트 적용
+}
+
+/* 폼 요소 초기화 */
+input,
+textarea,
+select,
+button {
+  font: inherit; // 부모의 폰트 상속
+}
+
+textarea {
+  resize: vertical; // 수직으로만 크기 조정 가능
+}
+
+/* 테이블 초기화 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* HTML5 요소 블록 레벨 설정 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* 기본 폰트 두께와 크기 초기화 */
+strong, b {
+  font-weight: bold;
+}
+
